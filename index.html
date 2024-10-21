@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ryan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="bod">
+  <input id="box">
+  <button onclick="enter()">Submit</button>
+  <button onclick="hide()">Hide</button>
+  <iframe id="frame" style="resize: true; opacity: 100%; width: 0%; height: 0px;"
+    src="https://rule34.xxx/index.php?page=post&s=list&tags=all&pid=84" name="iframe_a"
+    title="Iframe of the site"></iframe>
+
+  <script>
+    function hide() {
+      console.log("Ryan");
+      document.getElementById("frame").style = "width: 0%; height: 0px;"
+    }
+    function enter() {
+      if (document.getElementById("box").value == "277353") {
+        console.log("Ryan");
+        document.getElementById("frame").style = "width: 100%; height: 2000px;"
+        document.getElementById("bod").style = "background-color: #aae5a4;"
+      }
+    }
+  </script>
+
+</body>
+
+</html>

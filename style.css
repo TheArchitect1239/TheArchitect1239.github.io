@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: gray;
+}
+
+input {
+  color: #009;
+}
+
+button {
+  color: #009;
+  border: solid gray 1px;
+  border-radius: 0px;
+}
